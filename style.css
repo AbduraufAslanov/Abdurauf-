@@ -1,0 +1,36 @@
+.navigation{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+}
+.navigation .main-wraper{
+    align-items: center;
+    display: flex;
+}
+.navigation .menu-wraper{
+    gap: 60px;
+    display: flex;
+}
+.navigation .menu-items > a{
+    text-decoration: none;
+    color: #21383e;
+    font-size: 20px;
+    position: relative;
+    right: 100px;
+}
+.img{
+    padding: 34px 60px;
+}
+.button{
+    position: relative;
+    background-color: wheat;
+    padding: 34px 61px;
+    border: none;
+    border-bottom-left-radius: 50px;
+}
+.border{
+    position: relative;
+    border: none;
+    background: none;
+    left: 100px;
+}
