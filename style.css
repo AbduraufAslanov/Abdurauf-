@@ -19,7 +19,8 @@
     right: 100px;
 }
 .img{
-    padding: 34px 60px;
+    padding: 34px 50px;
+  
 }
 .button{
     position: relative;
@@ -34,3 +35,126 @@
     background: none;
     left: 100px;
 }
+.hero-wraper{
+
+padding-top: 116px;
+padding-left: 80px;
+background-image: url(./Group\ 188\ \(2\).png);
+height: 100vh;
+background-repeat: no-repeat;
+background-position: top right;
+}
+.hero-wraper .title{
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0,5px;
+    word-break: break-word;
+    width: 450px;
+    margin-bottom: 51px;
+}
+.hero-wraper .descriptin{
+    font-size: 14px;
+    line-height: 26px;
+    color: #21383e;
+    letter-spacing: 0,5px;
+    width: 350px;
+}
+.hero-wraper .register-input{
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 30px rgba(47, 68, 88, 20%);
+   display: flex;
+width: calc(100% / 3);
+padding: 28px;
+justify-content: space-between;
+border-radius: 10px;
+}
+.hero-wraper .register-input small{
+font-size: 13px;
+color: #7D8186;
+letter-spacing: 0,3px;
+margin-bottom: 10px;
+display: inline-block;
+
+}
+.hero-wraper .register-input p{
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 0.23px;
+    color: black;
+}
+.hero-wraper .btn{
+    background-color: #725ba1;
+    color: #fff;
+    border: 0;
+    padding: 24px 64px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.about-wraper{
+    display: flex;
+    align-items: center;
+padding-left: 130px;
+}
+.about-wraper .title{
+    color: #121212;
+    font-size: 50px;
+    letter-spacing: -0,5px;
+    line-height: 62px;
+    width: 440px;
+}
+.about-wraper .line {
+    margin: 50px 0;
+    background-color: #7D8186;
+    width: 121px;
+    height: 1px;
+    display: inline-block;
+}
+.about-wraper .description{
+    font-size: 14px;
+    line-height: 26px;
+    color: #21383e;
+    letter-spacing: 0,35px;
+    width: 350px;
+    margin: 50px 0;
+
+}
+.about-wraper .user{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.about-wraper .user-info{
+display: flex;
+flex-direction: column;
+}
+.about-wraper .img-contend{
+display: flex;
+flex-direction: column;
+
+}
+.about-wraper .img-contend .top{
+position: relative;
+ }
+ .about-wraper .img-contend .top img{
+    position: relative;
+ left: 348px;
+ }
+
+ .about-wraper .img-contend .msj-1{
+    position: absolute;
+    background-color: #7d6353;
+    border-radius: 35px;
+    border-bottom-right-radius: 0;
+    padding: 14px 30px;
+    color: #fff;
+    letter-spacing: 0,3px;
+    font-size: 14px;
+    line-height: 22px;
+    width: 234px;
+    top: 171px;
+    left: 120px;
+
+ }
+ 
